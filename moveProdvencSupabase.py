@@ -25,13 +25,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ========== CONFIGURACOES MONGODB ==========
-MONGO_DESTINO = "mongodb+srv://mateus_lemos:pXqgrqsWz0nqOqQtV588@estoque-centralizado.gwuokd.mongodb.net/?"
+MONGO_DESTINO = "MONGOURIIII"
 BASE_DESTINO = "estoque_centralizado"
 COLLECTION_ORIGEM = "prodvenc"
 
 # ========== CONFIGURACOES SUPABASE/POSTGRES ==========
 # Informe a string de conexao do Supabase diretamente aqui.
-SUPABASE_DATABASE_URL = "postgresql://postgres.ulpppmzsxjbsqiyfskwi:estoquecentralizado@aws-1-sa-east-1.pooler.supabase.com:6543/postgres"
+SUPABASE_DATABASE_URL = "POSTGRES URIII"
 POSTGRES_SCHEMA = "estoquecentralizado"
 POSTGRES_TABLE = "produtovencer"
 
